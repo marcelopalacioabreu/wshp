@@ -1,7 +1,7 @@
 /*	Resets
 	------	*/
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+ html, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
 img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
@@ -63,4 +63,97 @@ footer {
 
 .navbar-fixed-top {
     position: fixed;
+}
+
+body {
+        background: url('../img/bootstrap.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    /*background-position: center center;*/
+    }
+
+
+.coming-soon {
+    color: #fffefe; /* text color */
+    font-family: "Orator Std";
+    font-size: 36px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.pepperwood {
+    color: #fffefe; /* text color */
+    font-family: "Lobster 1.4";
+    font-size: 72px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 17%;
+}
+
+.arrow{
+padding-top: 100px;
+    text-align: center;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
 }
