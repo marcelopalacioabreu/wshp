@@ -1,44 +1,43 @@
 /*	Resets
 	------	*/
 
- html, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
-img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+html, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, hgroup, 
+article, aside, canvas, details, figure, figcaption, hgroup,
 menu, footer, header, nav, section, summary, time, mark, audio, video {
-	margin: 10;
-	padding: 0;
-	border: 0;
+    margin: 10;
+    padding: 0;
+    border: 0;
 }
 
 /*	Stuf
 	------	*/
 
 body {
-	background: #e9eaeb;
-	font: 12px/16px Helvetica, Arial, sans-serif;
+    background: #e9eaeb;
+    font: 12px/16px Helvetica, Arial, sans-serif;
 }
 
 h4 {
-	clear: both;
-	width: 100%;
+    clear: both;
+    width: 100%;
 }
 
 #freetile {
-	margin: 50px auto;
-	max-width: 1920px;
+    margin: 50px auto;
+    max-width: 1920px;
 }
-
 
 .element {
-	/*background: #efeff1;*/
-	/*border-right: 3px solid #eb252a;*/
-	/*border-bottom: 3px solid #eb0001;*/
+    /*background: #efeff1;*/
+    /*border-right: 3px solid #eb252a;*/
+    /*border-bottom: 3px solid #eb0001;*/
 }
 
-img{
+img {
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -66,21 +65,20 @@ footer {
 }
 
 body {
-        background: url('../img/bootstrap.png') no-repeat center center fixed;
+    background: url('../img/bootstrap.png') no-repeat center center fixed;
     -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     /*background-position: center center;*/
-    }
-
+}
 
 .coming-soon {
     color: #fffefe; /* text color */
     font-family: "Orator Std";
     font-size: 36px;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 35px;
 }
 
 .pepperwood {
@@ -89,11 +87,11 @@ body {
     font-size: 72px;
     text-align: center;
     vertical-align: middle;
-    padding-top: 17%;
+    padding-top: 11%;
 }
 
-.arrow{
-padding-top: 100px;
+.arrow {
+    padding-top: 70px;
     text-align: center;
 }
 
@@ -152,8 +150,6 @@ and (min-width : 1824px) {
 }
 
 /* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
     /* Styles */
 }
