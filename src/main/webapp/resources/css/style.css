@@ -74,10 +74,10 @@ body {
 }
 
 .coming-soon {
-    color: #fffefe; /* text color */
-    font-family: "Orator Std";
-    font-size: 36px;
-    text-align: center;
+    /*color: #fffefe; *//* text color */
+    /*font-family: "Orator Std";*/
+    /*font-size: 36px;*/
+    text-align: center  ;
     padding-top: 35px;
 }
 

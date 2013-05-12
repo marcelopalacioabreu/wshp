@@ -5,6 +5,7 @@
 
 
     <!-- Styling for your grid blocks -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<c:url value="/static/resources/css/style.css"/>" />
     <link href="<c:url value="/static/resources/css/bootstrap.css"/>" rel="stylesheet">
     <link href="<c:url value="/static/resources/css/bootstrap-responsive.css"/>" rel="stylesheet">
@@ -19,7 +20,7 @@
         <div class="arrow"><img src="<c:url value="/static/resources/img/arrow.png"/>" /></div>
     </div>
     <div class="row">
-        <div class="coming-soon">comming soon</div>
+        <div class="coming-soon"><img src="<c:url value="/static/resources/img/coming_soon.png"/>" /></div>
     </div>
 <!--</div>-->
 </body>
